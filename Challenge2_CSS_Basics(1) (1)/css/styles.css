@@ -1,11 +1,12 @@
 /*
 COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
+https://coolors.co/e63946-f9edee-e3f4f4-b7ceb5-191818
+#E63946  - bright red
+#F9EDEe  - soft pink
+#E3F4F4  - mint blue
+#B7CEB5  - mint green
+#191818  - black
+
 */
 
 
@@ -30,7 +31,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #B7CEB5;
 }
 a:hover {
   text-decoration: none;
@@ -43,8 +44,8 @@ h2 {
   font-size: 45px;
 }
 h1, h2 {
-  font-family: 'Caveat', cursive;
-  font-weight: 400;
+  font-family: 'https://fonts.google.com/specimen/Girassol', sans-serif;
+  font-weight: 500;
   margin: 0;
 }
 .content-wrap {
@@ -74,7 +75,7 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
+  background: #050505;
   color: #F7FFF7;
 }
 
@@ -82,14 +83,14 @@ header {
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background: #F4E3E3;
 }
 .projects a {
-  color: #2F3061;
+  color: #E63946;
 }
 .projects .btn {
   color: #F7FFF7;
-  background: #2F3061;
+  background: #B7CEB5;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
@@ -109,7 +110,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #E3F4F4;
 }
 
 
@@ -117,7 +118,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(../images/backgroundnotes.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
@@ -130,7 +131,7 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
+  background: #E63946;
   color: #F7FFF7;
 }
 .contact-list {
