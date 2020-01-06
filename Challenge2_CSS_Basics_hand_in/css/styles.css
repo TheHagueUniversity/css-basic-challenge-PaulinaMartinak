@@ -161,7 +161,7 @@ header {
 ------------------------------------*/
 
 .work-experience {
- background:#AFDBD7;
+ background:#B7CEB5;
 }
 
 
@@ -169,27 +169,25 @@ header {
  color: #E63946;
 }
 
-.btn {
-    display: inline-block;
-    padding: 18px 14px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #F9EDEe;
-    border: none;
-    border-radius: 4px;
-      box-shadow: 0 9px #999;
-    }
+.work-experience .btn {
+ color: #F7FFF7;
+ background: #F9EDEE;
+ text-decoration: none;
+ padding: 18px;
+ border-radius: 14px;
+ display: inline-block;
+}
 
-    .btn:hover {background-color: #E63946}
+.work-experience .btn:hover {
+ background: rgba(202, 68, 88, 80%);
+}
 
-    .btn:active {
-    background-color: #E63946;
-    box-shadow: 0 0px #666;
-    transform: translateY(4px);
+.work-experience-item {
+ overflow: hidden;
+}
+
+.work-experience h3 {
+ margin-top: 0;
 }
 
 /* Education
