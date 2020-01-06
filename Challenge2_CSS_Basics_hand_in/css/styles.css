@@ -45,7 +45,7 @@ body {
  margin: 0;
  padding: 0;
  font-family: 'Montserrat', sans-serif;
- font-size: 15px;
+ font-size: 20px;
  line-height: 1.5;
 }
 
@@ -161,7 +161,7 @@ header {
 ------------------------------------*/
 
 .work-experience {
- background: #628784;
+ background:#AFDBD7;
 }
 
 
